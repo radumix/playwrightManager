@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('Trigger Add User Button - Debugging Angular', async ({page})=>{
+test('Trigger Add User Button - Debugging Angular Webb Application', async ({page})=>{
 
     await page.goto('http://localhost:4200/login');
 const pageTitle=page.title();
